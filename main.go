@@ -350,7 +350,7 @@ func CryptJSPayload() {
 
 	outputPath := filepath.Join("Built", "JavaScriptPayloads", "CodepulzeObfuscated.js")
 	if err := os.MkdirAll(filepath.Dir(outputPath), 0755); err != nil {
-		gostyle.Write(fmt.Sprintf("[@Admin:~/Royaloakap$] > Error creating output directory: %s\n", err), gostyle.RED_TO_YELLOW, false)
+		gostyle.Write(fmt.Sprintf("[@Admin:~/Royaloakaps$] > Error creating output directory: %s\n", err), gostyle.RED_TO_YELLOW, false)
 		return
 	}
 
